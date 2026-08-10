@@ -1,5 +1,6 @@
 import { onest } from "@/app/fonts/fonts";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function AboutMe() {
@@ -44,23 +45,29 @@ export default function AboutMe() {
                         </li>
                     </ul>
                     <div className="flex flex-col items-center justify-center gap-4 px-2 py-6 text-base sm:flex-row sm:flex-wrap sm:px-0 sm:text-lg">
-                        <button className="w-full rounded-xl border border-transparent bg-gray-500 px-6 py-3 text-black transition hover:border-gray-400 hover:bg-black hover:text-gray-400 sm:w-auto">
-                            View My Works
-                        </button>
-                        <button className="w-full rounded-xl border border-transparent bg-gray-500 px-6 py-3 text-black transition hover:border-gray-400 hover:bg-black hover:text-gray-400 sm:w-auto">
-                            Get In Touch
-                        </button>
-                        <button className="w-full rounded-xl border border-transparent bg-gray-500 px-6 py-3 text-black transition hover:border-gray-400 hover:bg-black hover:text-gray-400 sm:w-auto">
-                            Resume
-                        </button>
+                        <Link href="/projects">
+                            <button className="w-full rounded-xl cursor-pointer hover:bg-[#EB8B3F] px-6 py-3 text-[#EB8B3F] transition  bg-black border border-[#EB8B3F] hover:text-black sm:w-auto">
+                                View My Works
+                            </button>
+                        </Link>
+                        <Link href="/contact">
+                            <button className="w-full rounded-xl cursor-pointer hover:bg-[#EB8B3F] px-6 py-3 text-[#EB8B3F] transition  bg-black border border-[#EB8B3F] hover:text-black sm:w-auto">
+                                Get In Touch
+                            </button>
+                        </Link >
+                        <Link href="/Resume_of_AMALDAS_P_R (1).pdf" download>
+                            <button className="w-full rounded-xl cursor-pointer hover:bg-[#EB8B3F] px-6 py-3 text-[#EB8B3F] transition  bg-black border border-[#EB8B3F] hover:text-black sm:w-auto">
+                                Resume
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
 
             </div>
 
-            
 
-        </div>
+
+        </div >
     );
 }
