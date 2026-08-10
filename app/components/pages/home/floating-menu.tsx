@@ -13,9 +13,7 @@ export default function FloatingMenu() {
       <Link href="/projects">
         <div className="cursor-pointer rounded-full px-3 py-1 transition hover:bg-white/10">Projects</div>
       </Link>
-      <Link href="/certifications">
-        <div className="cursor-pointer rounded-full px-3 py-1 transition hover:bg-white/10">Certifications</div>
-      </Link>
+     
       <Link href="/contact">
         <div className="cursor-pointer rounded-full px-3 py-1 transition hover:bg-white/10">Connect</div>
       </Link>

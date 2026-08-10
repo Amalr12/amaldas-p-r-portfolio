@@ -4,7 +4,7 @@ export default function AboutHero() {
     return (
         <div className="grid gap-10 px-4 py-8 mt-10 mb-10 md:grid-cols-2 md:px-10 mt-10" data-aos="fade-up" data-aos-duration="900">
             <div className="flex flex-col gap-4 space-y-5">
-                <h1 className={`text-sm text-gray-500 font-bold mt-5 mb-5 ${onest.className}`} data-aos="fade-up" data-aos-delay="50">
+                <h1 className={`text-sm text-[#EB8B3F] font-bold mt-5 mb-5 ${onest.className}`} data-aos="fade-up" data-aos-delay="50">
                     [ About ]
                 </h1>
                 <h1 className={`text-4xl md:text-4xl font-semibold text-white mb-5 ${dancingScript.className} handwritten`} data-aos="fade-up" data-aos-delay="100">
