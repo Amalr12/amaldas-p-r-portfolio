@@ -5,7 +5,7 @@ export default function ProfileImage() {
     <div className="absolute inset-0 z-20 pointer-events-none">
       <Image
         fill
-        src="/dasss.png"
+        src="/das.png"
         alt="Hero profile image"
         quality={100}
         sizes="100vw"
