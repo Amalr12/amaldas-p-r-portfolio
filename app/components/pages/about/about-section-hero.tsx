@@ -1,9 +1,10 @@
 import { dancingScript, onest, sen } from "@/app/fonts/fonts";
+import Image from "next/image";
 
 export default function AboutHero() {
     return (
-        <div className="grid gap-10 px-4 py-8 mt-10 mb-10 md:grid-cols-2 md:px-10 mt-10" data-aos="fade-up" data-aos-duration="900">
-            <div className="flex flex-col gap-4 space-y-5">
+        <div className="grid gap-6 px-4 py-8 mt-10 mb-10 md:grid-cols-2 md:px-5 md:mt-20 justify-between items-stretch md:min-h-[320px]" data-aos="fade-up" data-aos-duration="900">
+            <div className="flex flex-col gap-4 space-y-5 h-full justify-center">
                 <h1 className={`text-sm text-[#EB8B3F] font-bold mt-5 mb-5 ${sen.className}`} data-aos="fade-up" data-aos-delay="50">
                     [ About ]
                 </h1>
@@ -19,7 +20,9 @@ export default function AboutHero() {
                     </p>
                 </div>
             </div>
-            <div className="hidden md:block" />
+            <div className="overflow-hidden rounded-3xl w-full h-[320px] md:h-[450px]">
+                <Image src="/amal1.jpeg" width={450} height={420} alt="About Amaldas" className="rounded h-full w-full object-cover" />
+            </div>
         </div>
     );
 }

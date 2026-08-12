@@ -9,8 +9,8 @@ export default function AboutMe() {
             <div className="grid gap-8 md:grid-cols-[2fr_4fr] md:items-center" data-aos="fade-up" data-aos-delay="100">
                 <div className="overflow-hidden rounded-3xl">
                     <Image
-                        src="/hero2.jpeg"
-                        alt="Surendar Selvaraj"
+                        src="/amal3.jpeg"
+                        alt="Amaldas P R"
                         width={720}
                         height={720}
                         className="h-full w-full object-cover"
