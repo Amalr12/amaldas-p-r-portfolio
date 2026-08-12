@@ -12,6 +12,7 @@ import {
   Sen,
   Urbanist,
 } from "next/font/google";
+import Footer from "./components/ui/footer";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     >
       <body className="min-h-full flex flex-col">
         <AosProvider>{children}</AosProvider>
+        <Footer />
       </body>
     </html>
   );
