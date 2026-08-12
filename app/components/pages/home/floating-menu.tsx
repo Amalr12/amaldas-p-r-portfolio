@@ -10,6 +10,9 @@ export default function FloatingMenu() {
       <Link href="/about">
         <div className="cursor-pointer rounded-full px-3 py-1 transition hover:bg-white/10">About</div>
       </Link>
+      <Link href="/skills">
+        <div className="cursor-pointer rounded-full px-3 py-1 transition hover:bg-white/10">Skills</div>
+      </Link>
       <Link href="/projects">
         <div className="cursor-pointer rounded-full px-3 py-1 transition hover:bg-white/10">Projects</div>
       </Link>

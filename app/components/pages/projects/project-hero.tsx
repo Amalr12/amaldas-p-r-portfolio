@@ -18,6 +18,9 @@ export default function ProjectHero() {
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
                     <div className="absolute z-20 inset-0 flex items-center justify-center flex flex-col opacity-0 transition duration-300 group-hover:opacity-100">
                         <h1 className="text-2xl font-bold text-black mb-3">Propertyease</h1>
+                          <h1 className="text-xl  text-black mb-3">Frontend Project</h1>
+                            <p className="text-sm  text-black mb-3">Next.js, React.js, Tailwind CSS <br /> Google Maps API,TypeScript</p>
+                            
                        <div className="flex gap-4 justify-between items-center">
                          <Link href={"https://propertyease1.vercel.app/"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
@@ -37,6 +40,8 @@ export default function ProjectHero() {
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
                     <div className="absolute z-20 inset-0 flex items-center justify-center flex flex-col opacity-0 transition duration-300 group-hover:opacity-100">
                         <h1 className="text-2xl font-bold text-black mb-3">DocPulse</h1>
+                        <h1 className="text-xl  text-black mb-3">MERN Project</h1>
+                            <p className="text-sm  text-black mb-3">MongoDB, Express.js, React.js,Node.js </p>
                        <div className="flex gap-4 justify-between items-center">
                          <Link href={"https://docpulse-frontend.vercel.app/"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
@@ -58,6 +63,8 @@ export default function ProjectHero() {
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
                    <div className="absolute z-20 inset-0 flex items-center justify-center flex flex-col opacity-0 transition duration-300 group-hover:opacity-100">
                         <h1 className="text-2xl font-bold text-black mb-3">Furnicome Furnitures</h1>
+                        <h1 className="text-xl  text-black mb-3">Frontend Project</h1>
+                            <p className="text-sm  text-black mb-3">Next.js, React.js, Tailwind CSS , TypeScript</p>
                         <div className="flex gap-4 justify-between items-center">
                          <Link href={"furnicome-website-next-js.vercel.app"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
@@ -77,6 +84,8 @@ export default function ProjectHero() {
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
                     <div className="absolute z-20 inset-0 flex items-center justify-center flex flex-col opacity-0 transition duration-300 group-hover:opacity-100">
                         <h1 className="text-2xl font-bold text-black mb-3">Urban Spices</h1>
+                            <h1 className="text-xl  text-black mb-3">Frontend Project</h1>
+                            <p className="text-sm  text-black mb-3">Next.js, React.js, Tailwind CSS, TypeScript </p>
                         <div className="flex gap-4 justify-between items-center">
                          <Link href={" https://restaurant-delta-vert.vercel.app"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
@@ -98,6 +107,8 @@ export default function ProjectHero() {
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
                    <div className="absolute z-20 inset-0 flex items-center justify-center flex flex-col opacity-0 transition duration-300 group-hover:opacity-100">
                         <h1 className="text-2xl font-bold text-black mb-3">Soul Routes</h1>
+                            <h1 className="text-xl  text-black mb-3">Frontend Project</h1>
+                            <p className="text-sm  text-black mb-3">HTML ,CSS,JavaScript</p>
                       <div className="flex gap-4 justify-between items-center">
                          <Link href={"https://travel-agency-project-theta.vercel.app/"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
@@ -117,6 +128,8 @@ export default function ProjectHero() {
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
                   <div className="absolute z-20 inset-0 flex items-center justify-center flex flex-col opacity-0 transition duration-300 group-hover:opacity-100">
                         <h1 className="text-2xl font-bold text-black mb-3">iJobs</h1>
+                            <h1 className="text-xl  text-black mb-3">Frontend Project</h1>
+                            <p className="text-sm  text-black mb-3">Next.js, React.js, Tailwind CSS,TypeScript</p>
                      <div className="flex gap-4 justify-between items-center">
                          <Link href={"https://jobportal-mu-nine.vercel.app/"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
@@ -138,6 +151,8 @@ export default function ProjectHero() {
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
                    <div className="absolute z-20 inset-0 flex items-center justify-center flex flex-col opacity-0 transition duration-300 group-hover:opacity-100">
                         <h1 className="text-2xl font-bold text-black mb-3">Employee Management System</h1>
+                         <h1 className="text-xl  text-black mb-3">forntend Project</h1>
+                        <p className="text-sm  text-black mb-3">HTML,CSS, JavaScript,React.js, Bootstrap</p>
                        <div className="flex gap-4 justify-between items-center">
                          <Link href={"https://employee-frontend-sigma.vercel.app/"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
@@ -157,6 +172,8 @@ export default function ProjectHero() {
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
                   <div className="absolute z-20 inset-0 flex items-center justify-center flex flex-col opacity-0 transition duration-300 group-hover:opacity-100">
                         <h1 className="text-2xl font-bold text-black mb-3">Event Scheduler</h1>
+                        <h1 className="text-xl  text-black mb-3">MERN Project</h1>
+                        <p className="text-sm  text-black mb-3">MongoDB,Node.js,Express.js,HTML,CSS, <br /> JavaScript,React.js, Bootstrap</p>
                        <div className="flex gap-4 justify-between items-center">
                          <Link href={"events-frontend-dusky.vercel.app"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
