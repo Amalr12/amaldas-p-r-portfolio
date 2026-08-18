@@ -5,8 +5,8 @@ export default function Footer() {
 
         <div >
            
-                <hr className="m-5"/>
-            <div className={`flex justify-between text-sm text-gray-400 m-5 ${sen.className}`}>
+                <hr className="md:m-5 m-2"/>
+            <div className={`flex justify-between text-xs md:text-sm text-gray-400 md:m-5 m-2 ${sen.className}`}>
                 <div>
                     <h1>@2026 Amaldas P R</h1>
                 </div>

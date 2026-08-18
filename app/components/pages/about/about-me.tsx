@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function AboutMe() {
     return (
-        <div className="space-y-10 px-4 py-8 sm:px-6 lg:px-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div className="space-y-10 md:px-4 py-8 sm:px-6 lg:px-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div className="grid gap-8 md:grid-cols-[2fr_4fr] md:items-center" data-aos="fade-up" data-aos-delay="100">
                 <div className="overflow-hidden rounded-3xl">
                     <Image
@@ -16,7 +16,7 @@ export default function AboutMe() {
                         className="h-full w-full object-cover"
                     />
                 </div>
-                <div className={`flex flex-col justify-center p-5 text-gray-400 ${onest.className}`}>
+                <div className={`flex flex-col justify-center md:p-5 text-gray-400 ${onest.className}`}>
                     <h1 className="text-2xl text-white font-bold mb-4 md:text-3xl" data-aos="fade-up" data-aos-delay="200">
                         Who am I?
                     </h1>
@@ -30,9 +30,9 @@ export default function AboutMe() {
                     <h1 className="text-2xl text-white font-bold mb-4 mt-6 md:text-3xl" data-aos="fade-up" data-aos-delay="350">
                         What I do?
                     </h1>
-                    <ul className="list-disc space-y-3 text-base text-gray-400 md:text-lg">
+                    <ul className="list-disc space-y-3 m-5 text-base text-gray-400 md:text-lg ">
                         <li data-aos="fade-up" data-aos-delay="400">
-                            <span className="font-bold">Frontend Development:</span> Building responsive, accessible, and high-performance web applications using React.js, Next.js, TypeScript, and Tailwind CSS.
+                            <span className="font-bold flex text-justify">Frontend Development:</span> Building responsive, accessible, and high-performance web applications using React.js, Next.js, TypeScript, and Tailwind CSS.
                         </li>
                         <li data-aos="fade-up" data-aos-delay="450">
                             <span className="font-bold">Modern UI Engineering:</span> Creating reusable component libraries, responsive layouts, smooth animations, and intuitive user experiences with GSAP, Framer Motion, and modern CSS.
@@ -44,7 +44,7 @@ export default function AboutMe() {
                             <span className="font-bold">Performance & optimization:</span> Improving page speed, SEO, code maintainability, responsive design, and cross-browser compatibility for production-ready applications.
                         </li>
                     </ul>
-                    <div className="flex flex-col items-center justify-center gap-4 px-2 py-6 text-base sm:flex-row sm:flex-wrap sm:px-0 sm:text-lg">
+                    <div className="flex flex-col items-center justify-center gap-4 md:px-2 py-6 text-xs sm:flex-row sm:flex-wrap sm:px-0 sm:text-xs">
                         <Link href="/projects">
                             <button className="w-full rounded-xl cursor-pointer hover:bg-[#EB8B3F] px-6 py-3 text-[#EB8B3F] transition  bg-black border border-[#EB8B3F] hover:text-black sm:w-auto">
                                 View My Works

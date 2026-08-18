@@ -9,7 +9,7 @@ export default function ProfileImage() {
         alt="Hero profile image"
         quality={100}
         sizes="100vw"
-        className="object-contain object-center"
+        className="object-contain object-center m-2"
         priority
       />
     </div>
