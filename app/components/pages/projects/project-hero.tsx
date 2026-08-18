@@ -7,12 +7,12 @@ import { FaGithub } from "react-icons/fa";
 
 export default function ProjectHero() {
     return (
-        <div className="text-center md:mt-15">
+        <div className="text-center mt-20 md:mt-15">
             <h1 className={` ${sen.className} text-sm font-bold  flex justify-center text-[#EB8B3F]`}>[  Projects  ]</h1>
-            <p className={`text-6xl text-gray-300 ${sen.className} mt-5`}>
+            <p className={`md:text-6xl text-3xl text-gray-300 ${sen.className} mt-5`}>
                 My Works.
             </p>
-            <div className="grid gap-8 m-10 sm:grid-cols-2 lg:grid-cols-[2fr_4fr] md:grid-cols-[2fr_4fr] grid-cols-1 justify-around items-center">
+            <div className="grid gap-8 md:m-10 m-5 sm:grid-cols-2 lg:grid-cols-[2fr_4fr] md:grid-cols-[2fr_4fr] grid-cols-1 justify-around items-center">
                 <div className="group relative h-[20rem] overflow-hidden rounded-xl hover:cursor-pointer ">
                     <Image src="/propertyease.png" alt="home" fill quality={100} className="absolute inset-0 object-cover transition duration-500 ease-out group-hover:scale-105 group-hover:blur-sm" />
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
@@ -57,7 +57,7 @@ export default function ProjectHero() {
                     </div>
                 </div>
             </div>
-            <div className={`text-xl text-gray-300 ${sen.className} m-10 grid md:grid-cols-[4fr_2fr] lg:grid-cols-[4fr_2fr] grid-cols-1 gap-4 justify-around items-center`}>
+            <div className={`text-xl text-gray-300 ${sen.className} m-5 md:m-10 grid md:grid-cols-[4fr_2fr] lg:grid-cols-[4fr_2fr] grid-cols-1 gap-4 justify-around items-center`}>
                 <div className="group relative h-[20rem] overflow-hidden rounded-xl">
                     <Image src="/furniture.png" alt="home" fill quality={100} className="absolute inset-0 object-cover transition duration-500 ease-out group-hover:scale-105 group-hover:blur-sm" />
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
@@ -101,7 +101,7 @@ export default function ProjectHero() {
                     </div>
                 </div>
             </div>
-             <div className={`text-xl text-gray-300 ${sen.className} m-10 grid md:grid-cols-[2fr_4fr] lg:grid-cols-[2fr_4fr] grid-cols-1 gap-4 justify-around items-center`}>
+             <div className={`text-xl text-gray-300 ${sen.className} m-5 md:m-10 grid md:grid-cols-[2fr_4fr] lg:grid-cols-[2fr_4fr] grid-cols-1 gap-4 justify-around items-center`}>
                 <div className="group relative h-[20rem] overflow-hidden rounded-xl">
                     <Image src="/souls.png" alt="home" fill quality={100} className="absolute inset-0 object-cover transition duration-500 ease-out group-hover:scale-105 group-hover:blur-xs" />
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>
@@ -145,7 +145,7 @@ export default function ProjectHero() {
                     </div>
                 </div>
             </div>
-             <div className={`text-xl text-gray-300 ${sen.className} m-10 grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-4 justify-around items-center`}>
+             <div className={`text-xl text-gray-300 ${sen.className} m-5 md:m-10 grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-4 justify-around items-center`}>
                 <div className="group relative h-[20rem] overflow-hidden rounded-xl">
                     <Image src="/empmgnt.png" alt="home" fill quality={100} className="absolute inset-0 object-cover transition duration-500 ease-out group-hover:scale-105 group-hover:blur-xs" />
                     <div className="absolute inset-0 bg-white/50 opacity-0 transition duration-300 group-hover:opacity-100"></div>

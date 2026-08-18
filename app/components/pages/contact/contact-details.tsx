@@ -66,9 +66,9 @@ export default function ContactDetails() {
 
 
             </div>
-            <div className="flex justify-center mt-10 gap-4 flex-wrap m-5">
+            <div className={`flex justify-center mt-10 gap-4 flex-wrap m-5 ${sen.className}`}>
             <Link href="mailto:amaldaspr12@gmail.com">
-                    <button className="bg-[#EB8B3F] cursor-pointer hover:bg-[#1a1a1a] hover:text-gray-300 border hover:border-[#EB8B3F] text-black text-sm  py-2 px-4 rounded-4xl mr-4">Get in Touch</button>
+                    <button className="bg-[#EB8B3F] cursor-pointer hover:bg-[#1a1a1a] hover:text-gray-300 border hover:border-[#EB8B3F] text-black text-sm  py-2 px-4 rounded-4xl md:mr-4">Get in Touch</button>
             </Link>
                <Link href="/Resume_of_AMALDAS_P_R (1).pdf" download>
                  <button className="bg-[##EB8B3F] cursor-pointer hover:bg-[#1a1a1a] text-black border border-[#EB8B3F] text-gray-300 text-sm  py-2 px-4 rounded-4xl">Download Resume</button>
