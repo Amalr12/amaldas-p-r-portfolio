@@ -254,7 +254,7 @@ export default function SkillSet(){
             </div>
           </div>
           <ul className='mt-3 text-gray-500 text-lg'>
-            <li>Experienced in using MySQL to design relational databases, manage tables, and perform efficient data retrieval using SQL.
+            <li>Proficient in using Figma for wireframing, prototyping, UI/UX design, design systems, and creating responsive web application interfaces.
 
             </li>
             <li>Experienced in using Figma to create wireframes, prototypes, UI designs, and design systems for responsive web applications.</li>

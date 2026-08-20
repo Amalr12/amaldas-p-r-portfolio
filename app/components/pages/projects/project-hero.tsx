@@ -66,7 +66,7 @@ export default function ProjectHero() {
                         <h1 className="text-xl  text-black mb-3">Frontend Project</h1>
                             <p className="text-sm  text-black mb-3">Next.js, React.js, Tailwind CSS , TypeScript</p>
                         <div className="flex gap-4 justify-between items-center">
-                         <Link href={"furnicome-website-next-js.vercel.app"}>
+                         <Link href={"https://furnicome-website-next-js.vercel.app/"}>
                             <button className="rounded-full bg-black px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-white hover:text-black cursor-pointer">
                                    <ArrowUpRight />
                             </button>
